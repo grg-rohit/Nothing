@@ -7,16 +7,20 @@ void busExpress();
 
 void busExpress()
 {
+    int i, j;
     system("cls");
-
-    printf("Enter your destination");
+    j=0;
 
     printf("\n\n\t\t\t\t\tBUS EXPRESS \n\n");
-    printf("\t\t\t\t[1]==> %s\n", buses[0]);
-    printf("\t\t\t\t[2]==> %s\n", buses[1]);
-    printf("\t\t\t\t[3]==> %s\n", buses[2]);
-    printf("\t\t\t\t[4]==> %s\n", buses[3]);
-    printf("\t\t\t\t[5]==> %s\n", buses[4]);
+    while(i<4){
+        printf("\t\t\t\t[%d]==> %s\n", ++j, buses[i]);
+        i++;
+    }
+    // printf("\t\t\t\t[1]==> %s\n", buses[0]);
+    // printf("\t\t\t\t[2]==> %s\n", buses[1]);
+    // printf("\t\t\t\t[3]==> %s\n", buses[2]);
+    // printf("\t\t\t\t[4]==> %s\n", buses[3]);
 
 }
+
 
