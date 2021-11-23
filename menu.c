@@ -6,7 +6,7 @@ void menu(){
     printf("\n\n\n\t\t\t[1] View bus list\n\n");
     printf("\t\t\t[2] book Tickets\n\n");
     printf("\t\t\t[3] Cacnel Booking\n\n");
-    printf("\t\t\t[4] Ticket Status\n\n");
+    printf("\t\t\t[4] Bus status\n\n");
     printf("\t\t\t[5] Exit\n\n");
 }
 
